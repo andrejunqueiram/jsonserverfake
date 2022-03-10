@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "email": "kenzinho@mail.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "name": "Kenzinho",
+      "id": 1
+    },
+    {
+      "email": "joe@teste.com",
+      "password": "$2a$10$D1sW6FZgUZDS.9Bz/ygVXux0VKCSLJHxipnqb.HkZsxRv3uQNyGRG",
+      "firstname": "Joe",
+      "lastname": "Teste",
+      "id": 2
+    },
+    {
+      "email": "email@valido.com",
+      "password": "$2a$10$xuLDEBD2IMTIj7Mp.3jWhuiAxYQ9ZyVcamm0RYfPPgtCZAN5lt95C",
+      "firstname": "Nome",
+      "lastname": "Sobrenome",
+      "id": 3
+    }
+  ],
+  "cars": [
+    {
+      "model": "Modelo",
+      "year": 2022,
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "model": "Modelo 2",
+      "year": 2022,
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "model": "Modelo 3",
+      "year": 2022,
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "model": "Modelo 4",
+      "year": 2022,
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "model": "Modelo 5",
+      "year": 2022,
+      "userId": 2,
+      "id": 5
+    }
+  ],
+  "properties": [
+    {
+      "userId": 3,
+      "type": "apartment or house",
+      "area": 0,
+      "value": 10,
+      "id": 1
+    },
+    {
+      "type": "apartment or house",
+      "area": 0,
+      "value": 10,
+      "userId": 3,
+      "id": 2
+    }
+  ]
+}
